@@ -3,10 +3,6 @@ pipeline{
   stages{
     stage("build"){
       steps{
-        script{
-          def test = 4 +5
-          echo $test
-        }
         echo 'Building this one'
       }
     }
