@@ -4,8 +4,8 @@ pipeline{
     stage("build"){
       steps{
         echo 'Building this one'
-       nodejs('nodejs-19.3.0'){
-         sh 'yarn install'
+       nodejs('node-18.12.1'){
+         sh 'npm install'
        }
       }
     }
