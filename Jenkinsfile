@@ -19,7 +19,7 @@ pipeline{
         stage('depl'){
             steps{
                 echo 'Deploying the application'
-                echo 'DEPL CHANGED'
+                echo 'Deploying the changes'
             }
         }
     }
