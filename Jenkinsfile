@@ -19,6 +19,7 @@ pipeline{
         stage('depl'){
             steps{
                 echo 'Deploying the application'
+                echo 'DEPL'
                 sh 'npm --version'
             }
         }
