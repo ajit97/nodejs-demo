@@ -20,7 +20,6 @@ pipeline{
             steps{
                 echo 'Deploying the application'
                 echo 'DEPL CHANGED'
-                sh 'npm --version'
             }
         }
     }
