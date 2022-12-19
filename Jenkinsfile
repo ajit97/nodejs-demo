@@ -6,5 +6,15 @@ pipeline{
                 echo 'Building the Application'
             }
         }
+        stage("test"){
+            steps{
+                echo 'Testing the application'
+            }
+        }
+        stage('depl'){
+            steps{
+                echo 'Deploying the application'
+            }
+        }
     }
 }
