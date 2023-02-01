@@ -27,6 +27,12 @@ app.post("/",(req,resp)=>{
     })
 });
 
+app.get("/posts",(req,resp)=>{
+    resp.status(200).json({
+        post: posts
+    });
+})
+
 
 
 app.listen(PORT,()=>{
