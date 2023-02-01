@@ -10,6 +10,14 @@ const posts = [
     {
         id:1,
         title:"First Post"
+    },
+    {
+        id:3,
+        title:"First Post"
+    },
+    {
+        id:1=2,
+        title:"First Post"
     }
 ]
 
